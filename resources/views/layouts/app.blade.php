@@ -50,7 +50,10 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{ Route('admin.projects.index') }}">{{ __('Project') }}</a>
                         </li>
-                       
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ Route('admin.contacts.index') }}">{{ __('Contacts') }}</a>
+                        </li>
+
                         @endauth
                     </ul>
 
@@ -94,13 +97,6 @@
             @yield('content')
         </main>
 
-        <footer class="main-footer">
-            <div class="container">
-                <p class="text-muted text-center">
-                    Made with <span class="fa fa-heart"></span> by <a href="#" target="_blank">Classe 89</a>
-                </p>
-            </div>
-        </footer>
     </div>
 </body>
 
